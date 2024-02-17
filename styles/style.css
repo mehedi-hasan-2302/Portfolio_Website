@@ -300,6 +300,21 @@ section{
                         transition: all .4s ease-in-out;
                         width: 75%;
                     }
+                    .c{
+                        width: 90%;
+                    }
+                    .java{
+                        width: 65%;
+                    }
+                    .html{
+                        width: 75%;
+                    }
+                    .dart{
+                        width: 55%;
+                    }
+                    .css{
+                        width: 50%;
+                    }
                 }
             }
         }
