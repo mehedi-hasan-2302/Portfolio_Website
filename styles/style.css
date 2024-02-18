@@ -421,6 +421,10 @@ section{
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
+            p{
+                align-self: center;
+                margin-left: 20px;
+            }
             .icons{
                 display: flex;
                 justify-content: center;
