@@ -522,42 +522,52 @@ section{
 .contact-content-con{
     display: flex;
     padding-top: 3.5rem;
-    .left-contact{
+    .left-contact {
         flex: 2;
-        h4{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        h4 {
             margin-top: 1rem;
             font-size: 2rem;
             text-transform: uppercase;
         }
-        p{
+    
+        p {
             margin: 1rem 0;
             line-height: 2rem;
         }
-
-        .contact-info{
-            .contact-item{
+    
+        .contact-info {
+            .contact-item {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                p{
-                    margin: .3rem 0 !important;
-                    padding: 0 !important;
+                justify-content: flex-start; 
+    
+                p {
+                    margin: 0;
+                    white-space: nowrap; 
                 }
-                .icon{
-                    display: grid;
-                    grid-template-columns: 40px 1fr;
-                    i{
-                        display: flex;
-                        align-items: center;
+    
+                .icon {
+                    display: flex;
+                    align-items: center;
+    
+                    i {
                         font-size: 1.3rem;
+                        margin-right: 0.5rem;
                     }
                 }
             }
         }
-        .contact-icon{
+    
+        .contact-icon {
             display: flex;
+            flex-wrap: wrap; 
             margin-top: 2rem;
-            a{
+    
+            a {
                 display: flex;
                 align-items: center;
                 color: var(--color-white);
@@ -567,23 +577,31 @@ section{
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
-                margin: 0 .4rem;
-                transition: all .4s ease-in-out
+                margin: 0 0.4rem;
+                transition: all 0.4s ease-in-out;
             }
-            &:hover{
+    
+            &:hover {
                 background-color: var(--color-secondary);
-                i{
+                i {
                     color: var(--color-primary);
                 }
             }
-            i{
+    
+            i {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 font-size: 1.3rem;
             }
         }
+    
+        .contact-info .icon {
+            margin-right: .5rem; 
+        }
     }
+    
+    
 
     .right-contact{
         flex: 3;
