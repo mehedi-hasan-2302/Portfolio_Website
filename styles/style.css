@@ -864,3 +864,28 @@ section{
         }
      }
 }
+
+@media screen and (max-width: 730px){
+    .projects{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .expertises{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+   
+   
+
+}

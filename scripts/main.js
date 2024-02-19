@@ -3,6 +3,7 @@ const secBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelectorAll('.main-content');
 
+
 function PageTransitions(){
     // button click active class
 
@@ -45,3 +46,7 @@ function PageTransitions(){
  
 
 PageTransitions();
+
+
+
+
